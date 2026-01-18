@@ -1,12 +1,12 @@
 # STM32 Embedded Measurement System - ECE 355
 
-An embedded measurement system built on an STM32 Cortex-M0 microcontroller that integrates analog and digital peripherals to measure resistance and signal frequency in real time. This was a lab project for ECE 355 (Microprocessor-Based Systems).
+An embedded measurement system built on an STM32 Cortex-M0 microcontroller that integrates analog and digital peripherals to measure resistance and signal frequency in real time. This was a lab project for ECE 355 (Microprocessor-Based Systems) completed in a team of 2.
 
 ## Overview 
 The system samples analog input from a potentiometer, maps it to an output voltage via a DAC, and computes frequency from multiple signal sources using timers and external interrupts. Results are displayed on an SPI-driven OLED interface.
 
 ## Features 
-- Real-time resistance measurment using ADC input
+- Real-time resistance measurement using ADC input
 - Analog voltage output via DAC to drive an external timing circuit
 - Frequency measurement using timers and rising-edge interrupts
 - Runtime switching between multiple frequency sources
